@@ -335,7 +335,8 @@
 	/// Vendorizes a declaration's property and/or value(s).
 	/// @param {string} $property Property.
 	/// @param {mixed} $value String/list of value(s).
-	@mixin vendor($property, $value) {
+	@mixin vendor($property, $value) 
+	{
 
 		// Determine if property should expand.
 			$expandProperty: index($vendor-properties, $property);
